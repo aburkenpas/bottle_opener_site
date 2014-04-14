@@ -1,0 +1,78 @@
+/*==================
+	Header
+==================*/
+
+	@media #{$tablet_header} {
+		.header {
+			nav {
+		
+		
+				ul {
+
+					li {
+						padding-right: 80px;
+						display: inline-block;
+					}
+				}
+			}
+	
+		}
+	}
+	
+
+	@media #{$mobile_header} {
+		.header {
+			border: none;
+
+			img {
+				display: block;
+				margin-top: 5px;
+				margin-bottom: 5px;
+  				margin-left: auto;
+  				margin-right: auto;
+  				float: none;
+			}
+			nav {
+						float: none;
+						text-align: center;
+						margin-right: 0;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						background: #272727;
+						font-size: 1.7em;
+		
+				ul {
+						
+					li {
+						
+						padding-right: 110px;
+						display: inline-block;
+
+						a {
+							color: white;
+						}
+					}
+				}
+			}
+	
+		}
+	}
+	
+
+
+/* ==========================================
+	Navagation
+	====================================== */
+
+
+
+	/* ==========================================
+SHOP
+	====================================== */
+
+	@media #{$tablet_shop} {
+		.open1, .open2 {
+			margin-top: 40px; 
+		}
+
+	}

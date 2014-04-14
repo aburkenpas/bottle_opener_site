@@ -1,0 +1,27 @@
+/* =================
+	colors
+==================*/
+
+$color1: #Bc2f36;
+$color2: lighten( $color1, 13%);
+$color3: #04819e;
+$black: #272727;
+$black2: #202020;
+$blue: #015c65;
+$blue2: lighten($blue, 13%);
+/* =================
+	font
+==================*/
+
+$font1: 'Pacifico', cursive;
+$font2: 'Nunito', sans-serif;
+$font3: 'Kite One', sans-serif;
+
+/* =================
+	media
+==================*/
+
+$tablet_header: "screen and (max-width : 760px)";
+$mobile_header: "screen and (max-width : 510px)";
+
+$tablet_shop:  "screen and (max-width : 640px)";

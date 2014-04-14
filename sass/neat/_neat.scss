@@ -1,0 +1,64 @@
+// Bourbon Neat 1.5.0
+// MIT Licensed
+// Copyright (c) 2012-2013 thoughtbot, inc.
+
+// Helpers
+@import "neat-helpers";
+
+
+// Grid
+@import "grid/private";
+@import "grid/reset";
+@import "grid/grid";
+@import "grid/omega";
+@import "grid/outer-container";
+@import "grid/span-columns";
+@import "grid/row";
+@import "grid/shift";
+@import "grid/pad";
+@import "grid/fill-parent";
+@import "grid/media";
+@import "grid/to-deprecate";
+@import "grid/visual-grid";
+
+//SHOP
+section {
+
+	@include outer-container;
+
+	.container_shop1 {
+
+	@include span-columns(12);
+
+	@media screen and (min-width: 640px) {
+
+		@include span-columns(12);
+
+	.open1{
+		@include span-columns(5 0f 10);
+
+	}
+}
+@media screen and (min-width: 640px) {
+
+		@include span-columns(12);
+
+	.open2 {
+		@include span-columns(5 of 10);
+
+	}
+}
+
+}
+	.info {
+		@include span-columns(12);
+	}	
+
+	.contact_form {
+		@include span-columns(12);
+	}
+}
+
+//Media SHOPP
+
+

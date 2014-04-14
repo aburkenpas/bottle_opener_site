@@ -1,0 +1,76 @@
+/* ==========================================
+	Tittle-Color
+	====================================== */
+
+
+
+
+/* ==========================================
+	Navagation - Color
+	====================================== */
+	.header {
+		
+		box-shadow: 0px 5px 6px #262626;
+
+	nav {
+
+		a {
+			color: $black;
+		}
+
+		a:hover {
+			color: $color1;
+			}
+
+		.contact_nav:hover {
+			color: $blue;
+		}
+			
+		
+	}
+}
+
+/* ==========================================
+	About - Color
+	====================================== */
+
+	
+	/* ==========================================
+	Shop - Color
+	====================================== */
+
+.red_bg {
+	background: $color1;
+	@include background(radial-gradient($color2, $color1) left repeat);
+	
+
+}
+
+.open1, .open2 {
+	img {
+		border: solid 5px white;
+	}
+}
+
+.shop_title {
+	color: $black2;
+}
+
+.open1, .open2 {
+	color: $black2;
+}
+
+.info {
+	color: $black2;
+}
+
+//contact
+
+.blue_bg {
+	background: $blue;
+	@include background(radial-gradient($blue2, $blue) left repeat);
+}
+
+.button2 {
+	color: $color2;
+}

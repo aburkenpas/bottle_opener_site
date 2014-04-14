@@ -1,0 +1,89 @@
+/* ==========================================
+	Navagation - font
+	====================================== */
+
+	.header {
+		nav {
+			font-size: 1.5em;
+			font-family: $font2;
+		}
+		
+		.shop-nav:hover {
+			color: $color1;
+		}
+	}
+
+/* ==========================================
+	About - font
+	====================================== */
+	.title {
+		h1 {
+			font-size: 3.5em;
+			font-family: $font1;
+			color: white;
+		}
+		h2 {
+			font-size: 1.4em;
+			color: white;
+			font-family: $font3;
+
+		}
+	}
+	
+	
+//shop
+
+section {
+	.shop_title {
+		h3 {
+			font-family: $font1;
+			font-size: 4em;
+
+		}
+	}
+
+	.open1, .open2 {
+		font-size: 2.5em;
+		font-family: $font2;
+
+		.button {
+			font-family: $font1;
+			font-size: 0.5em;
+			margin-top: 1.3em;
+		}
+	}
+	.info {
+		
+		font-family: $font2;
+		font-size: 1.7em;
+	}
+}
+
+//contact
+
+section {
+	.contact_title {
+		font-family: $font1;
+			font-size: 4em;
+		}
+	.contact_info {
+		font-family: $font2;
+		font-size: 1.7em;
+	}
+
+	label {
+		font-family: $font2;
+		font-size: 1.2em;
+
+		}
+
+		.button2 {
+			font-family: $font1;
+			p {
+				font-size: 1.5em;
+			}
+		}
+	
+
+	}
+	
