@@ -55,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
+
 ?>
 
 <!-- End PHP -->
@@ -76,29 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<!-- End Google Fonts-->
 
 
-	<!-- JQuery *Most likely going to remove script, because of multiple pages-->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>
-		$(function() {
-		$('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		var target = $(this.hash);
-		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		if (target.length) {
-		$('html,body').animate({
-		scrollTop: target.offset().top
-		}, 1000);
-		return false;
-			}
-		}
-			});
-		});
-	</script>
-
-	<!-- End JQuery -->
-
-</head>
+?>
 
 <body>
 
@@ -250,6 +229,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				</div>
 			</section>
 			
+
 		<!-- footer -->
 
 		<footer>
@@ -271,3 +251,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 </body>
 </html>
+
+<?php include("inc/footer.php"); ?>
+
