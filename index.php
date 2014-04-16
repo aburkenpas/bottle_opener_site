@@ -60,9 +60,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<meta charset="utf-8">
 	<title>Bottle Opener</title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+
+	<!-- Google Fonts -->
+
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+
+	<!-- End Google Fonts-->
+
+
+	<!-- JQuery *Most likely going to remove script, because of multiple pages-->
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>
 		$(function() {
@@ -80,9 +89,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			});
 		});
 	</script>
+	
+	<!-- End JQuery -->
+
 </head>
 
 <body>
+
+	<!-- Header -->
+
 	<header>
 		<div class="header">
 			<a href="#section1">
@@ -102,7 +117,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		</div>
 	</header>
 
-<! Title Page -->
+<!-- End Header -->
+
+
+<!-- Title Page -->
 
 <div class="photo_container">
 	<div class="wrapper">
@@ -122,7 +140,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	</div>
 		</section>
 
-	<! Shop Page-->
+	<!-- End Title Page -->
+
+
+	<!-- Shop Page-->
 
 	<div class="red_bg">
 		<section>
@@ -156,7 +177,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	</div>
 		</section>
 
-		<! Conatct Page -->
+		<!-- End Shop Page -->
+
+
+		<!-- Conatct Page -->
 
 		<div class="blue_bg">
 			<section>
@@ -214,7 +238,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				</div>
 			</section>
 			
-		<!footer -->
+		<!-- footer -->
 
 		<footer>
 		
@@ -228,6 +252,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		
 			<p>&copy; 2014 Company Name</p>
 		</footer> 
+
+		<!-- End Footer -->
 	</div>
 	
 </body>

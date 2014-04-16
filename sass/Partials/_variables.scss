@@ -2,13 +2,14 @@
 	colors
 ==================*/
 
-$color1: #Bc2f36;
-$color2: lighten( $color1, 13%);
-$color3: #04819e;
+$color1: #Bc2f36; //red color
+$color2: lighten( $color1, 13%); //light red
+$color3: #04819e; // blue color
 $black: #272727;
 $black2: #202020;
 $blue: #015c65;
 $blue2: lighten($blue, 13%);
+
 /* =================
 	font
 ==================*/
