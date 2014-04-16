@@ -14,26 +14,32 @@
 	<!-- End Google Fonts-->
 
 
-	<!-- JQuery *Most likely going to remove script, because of multiple pages-->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>
-		$(function() {
-		$('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		var target = $(this.hash);
-		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		if (target.length) {
-		$('html,body').animate({
-		scrollTop: target.offset().top
-		}, 1000);
-		return false;
-			}
-		}
-			});
-		});
-	</script>
-	
-	<!-- End JQuery -->
-
 </head>
+
+<!-- Adam I added this to the header -->
+
+<body>
+
+	<!-- Header -->
+
+	<header>
+		<div class="header">
+			<a href="index.php">
+				<img id ="logo_img" src="img/Bottlelogo.png">
+			</a>
+			<div class="social_media">
+				<a href="twitter.com"><img src="img/twitter.png" class="social-img"alt="Twitter icon"></a>
+				<a href="facebook.com"><img src="img/facebook.png" class="social-img"alt="Facebook icon"></a>
+			</div>
+			<nav>
+				<ul>	
+					<li class="shop_nav"><a href="shop.php">Shop</a></li>
+					<li class="contact_nav"><a href="contact.php" >Contact</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+	</header>
+</body>
+
+<!-- End Header -->
