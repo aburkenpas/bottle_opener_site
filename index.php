@@ -1,3 +1,5 @@
+<!-- PHP -->
+
 <?php
 require_once("inc/config.php");
 
@@ -54,6 +56,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
+
+<!-- End PHP -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -89,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			});
 		});
 	</script>
-	
+
 	<!-- End JQuery -->
 
 </head>
@@ -189,6 +195,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 						<span class="head3" id="section3"></span>
 						<h3>Contact</h3>
 					</div>
+
+
+					<!-- PHP -->
 					
 					<?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
 						<p class="contact_info">Thanks for the email! We'll get back to you in less than 48 hours!</p>
@@ -203,6 +212,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 						echo '<p class="message">' . $error_message . '</p>';
 					    }
 					?>
+
+					<!-- End PHP -->
+
 			
 					<div class="contact_form">
 						<form method="post" action="#section3">
@@ -254,6 +266,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		</footer> 
 
 		<!-- End Footer -->
+
 	</div>
 	
 </body>
