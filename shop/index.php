@@ -11,7 +11,6 @@ include(ROOT_PATH . "inc/header.php");
 			<div class="wrapper">
 
 				<div class="shop_title">
-					<span class="head2" id="section2"></span>
 					<h3>Shop</h3>
 				</div>
 				<div class="container_shop1">
@@ -33,7 +32,7 @@ include(ROOT_PATH . "inc/header.php");
 				</div>
 		                </div>
 		</section>	
-	</div>
+	
 		
 </body>
 

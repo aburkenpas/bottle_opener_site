@@ -70,7 +70,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			<section>
 				<div class="wrapper">
 					<div class="contact_title">
-						<span class="head3" id="section3"></span>
 						<h3>Contact</h3>
 					</div>
 

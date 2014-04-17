@@ -16,7 +16,6 @@ include(ROOT_PATH . "inc/header.php");
 	<div class="wrapper">
 		<section>
 			<div class="title" id="section1">
-				<span class="head1" ></span>
 				<h1>Company Name</h1>
 				<h2>Stainless Steel Bottle Openers</h2>
 			</div>
@@ -30,5 +29,5 @@ include(ROOT_PATH . "inc/header.php");
 
 
 
-<?php include(ROOT_PATH . "inc/footer.php"); ?>
+
 
