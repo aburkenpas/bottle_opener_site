@@ -22,12 +22,14 @@
 
 	@media #{$mobile_header} {
 		.header {
-			border: none;
+			
+			.social_media {
+				display: none;
+			}
 
 			img {
 				display: block;
-				margin-top: 5px;
-				margin-bottom: 5px;
+				padding-bottom: 25px;
   				margin-left: auto;
   				margin-right: auto;
   				float: none;
@@ -35,17 +37,19 @@
 			nav {
 						float: none;
 						text-align: center;
+						margin:0;
 						margin-right: 0;
 						padding-top: 10px;
 						padding-bottom: 10px;
 						background: #272727;
 						font-size: 1.7em;
+
 		
 				ul {
 						
 					li {
 						
-						padding-right: 110px;
+						padding-right: 140px;
 						display: inline-block;
 
 						a {
