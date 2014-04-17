@@ -10,7 +10,7 @@
 					<img src="<?php echo BASE_URL; ?>img/facebook.png" alt="">
 				</a>
 		
-			<p>&copy; 2014 Company Name</p>
+			<p>&#169; <?php echo date('Y'); ?> Company Name</p>
 		</footer> 
 
 		<!-- End Footer -->
