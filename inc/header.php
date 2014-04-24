@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bottle Opener</title>
+	<link type="text/css" rel="Stylesheet" href="<?php echo BASE_URL; ?>/stylesheets/bjqs.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>stylesheets/style.css" />
+	
 
 	<!-- Google Fonts -->
 
@@ -13,6 +15,10 @@
 
 	<!-- End Google Fonts-->
 
+	<!-- jQuery -->
+	<script src="<?php echo BASE_URL; ?>http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>js/bjqs-1.3.min.js"></script>
+				
 
 </head>
 

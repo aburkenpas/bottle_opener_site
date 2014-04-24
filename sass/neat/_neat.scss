@@ -34,31 +34,34 @@ section {
 
 		@include span-columns(12);
 
-	.open1{
+	.open1, .open2{
 		@include span-columns(5 0f 10);
 
 	}
 }
-@media screen and (min-width: 640px) {
 
-		@include span-columns(12);
 
-	.open2 {
-		@include span-columns(5 of 10);
 
-	}
-}
+
 
 }
-	.info {
-		@include span-columns(12);
-	}	
+	
+.button {
+	@include span-columns(12);
+}
 
 	.contact_form {
 		@include span-columns(12);
 	}
-}
 
+
+
+.info {
+		@include span-columns(12);
+	}
+
+
+}
 //Media SHOPP
 
 

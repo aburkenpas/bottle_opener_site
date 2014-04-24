@@ -17,7 +17,7 @@ include(ROOT_PATH . "inc/header.php");
 					<div class="open1">
 						<p>Bottle Open 1</p>
 						<img src="<?php echo BASE_URL; ?>img/cat1.jpeg" alt="">
-						<p class="button">Buy Me</p>	
+						<a href="<?php echo BASE_URL; ?>shop1/"><p class="button">Buy Me</p></a>
 					</div>
 				<div class="open2">
 					<p>Bottle Open 2</p>

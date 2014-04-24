@@ -11,6 +11,10 @@ a {
   text-decoration:none;
 }
 
+ul {
+	list-style: none;
+}
+
 img {
   max-width:100%;
 }
@@ -195,6 +199,29 @@ section {
 
 
 /* ==========================================
+	shop1 - layout
+====================================== */
+section {
+.container_gallery {
+	text-align: center;
+	.photo1, .photo2, .photo3, .photo4{
+		img {
+			max-width: 600px;
+			width:100%;
+			border: solid 5px white;
+		}
+	}
+}
+
+}
+
+.text_contanier {
+	.info2 {
+		padding-top: 8%;
+	}
+}
+
+/* ==========================================
 	Footer - Layout
 ====================================== */
 
@@ -210,7 +237,7 @@ section {
 
 		
 		p {
-			padding-bottom: 20px;
+			padding-bottom: 15px;
 		}
 	}
 
