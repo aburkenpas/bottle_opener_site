@@ -12,7 +12,7 @@ include(ROOT_PATH . "inc/header.php");
 			<div class="wrapper">
 
 				<div class="shop_title">
-					<h3>Bottle Open 1</h3>
+					<h3>Bottle Open 2</h3>
 				</div>
 
 					<div class="slider_container">

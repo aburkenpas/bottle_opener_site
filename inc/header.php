@@ -3,8 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bottle Opener</title>
-	<link type="text/css" rel="Stylesheet" href="<?php echo BASE_URL; ?>/stylesheets/bjqs.css" />
+	
+	<!-- Main Style -->
+
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>stylesheets/style.css" />
+
+	<!-- Slider Style -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>js/responsiveslides.min.js"></script>
 	
 
 	<!-- Google Fonts -->
@@ -15,14 +22,13 @@
 
 	<!-- End Google Fonts-->
 
-	<!-- jQuery -->
-	<script src="<?php echo BASE_URL; ?>http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="<?php echo BASE_URL; ?>js/bjqs-1.3.min.js"></script>
+	
+	
 				
 
 </head>
 
-<!-- Adam I added this to the header -->
+
 
 <body>
 
@@ -34,8 +40,8 @@
 				<a href="<?php echo BASE_URL; ?>"><img id ="logo_img" src="<?php echo BASE_URL; ?>img/Bottlelogo.png">
 			</a>
 			<div class="social_media">
-				<a href="twitter.com"><img src="<?php echo BASE_URL; ?>img/twitter.png" class="social-img"alt="Twitter icon"></a>
-				<a href="facebook.com"><img src="<?php echo BASE_URL; ?>img/facebook.png" class="social-img"alt="Facebook icon"></a>
+				<a href="http://twitter.com/toppopcard"  target="_blank" ><img src="<?php echo BASE_URL; ?>img/twitter.png" class="social-img"alt="Twitter icon"></a>
+				<a href="http://facebook.com/toppopcard" target="_blank" ><img src="<?php echo BASE_URL; ?>img/facebook.png" class="social-img"alt="Facebook icon"></a>
 			</div>
 			<nav>
 				<ul>	
@@ -46,6 +52,6 @@
 			</nav>
 		</div>
 	</header>
-</body>
+
 
 <!-- End Header -->

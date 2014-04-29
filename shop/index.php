@@ -5,7 +5,7 @@ include(ROOT_PATH . "inc/header.php");
 
 <!-- Shop Page-->
 
-<body>
+
 	<div class="red_bg">
 		<section>
 			<div class="wrapper">
@@ -22,7 +22,7 @@ include(ROOT_PATH . "inc/header.php");
 				<div class="open2">
 					<p>Bottle Open 2</p>
 					<img src="<?php echo BASE_URL; ?>img/cat2.jpeg" alt="">
-					<p class="button">Buy Me</p>	
+					<a href="<?php echo BASE_URL; ?>shop2/"><p class="button">Buy Me</p></a>	
 				</div>
 				</div>
 				<div class="info">
