@@ -25,7 +25,11 @@ include(ROOT_PATH . "inc/header.php");
 					
 
    						<div class="open1">
-							<p class="button2">Buy Me</p>	
+							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="YQUC8YY7A8QHU">
+							<input type="submit" Value="Buy Me" name="submit">
+							</form>		
 						</div>
 
    					<div class="info">
