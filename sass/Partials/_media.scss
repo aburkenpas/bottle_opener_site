@@ -4,6 +4,11 @@
 
 	@media #{$tablet_header} {
 		.header {
+
+			h1 {
+				font-size: 2.5em;
+				padding-top: 15px;
+			}
 			nav {
 		
 		
@@ -17,14 +22,44 @@
 			}
 	
 		}
+
+		section {
+
+	.shop_title {
+		padding-top: 220px;
 	}
+
+	.contact_title {
+		padding-top: 220px;
+	}
+
+	.open1 {
+	.button2 {
+		margin-top: -10px;
+	}
+}
+
+	.title {
+		padding-top: 310px;
+	}
+}
+
+
+}
+	
+
+
 	
 
 	@media #{$mobile_header} {
 		.header {
 			
 			.social_media {
-				display: none;
+				
+			}
+
+			h1 {
+				font-size: 2.5em;
 			}
 
 			img {
@@ -88,9 +123,57 @@
 		padding-top: 310px;
 	}
 }
+
+
+}
+
+@media #{$nav_fix} {
+	.header{
+
+		.social_media {
+		padding-top: 60px;
+	}
+		nav{
+			float: none;
+			text-align: center;
+			margin:0;
+			margin-right: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #272727;
+			font-size: 1.7em;
+			margin-top: 100px;
+
+		
+
+		ul {
+						
+
+					li {
+						
+						padding-right: 140px;
+						display: inline-block;
+
+
+						a {
+							color: white;
+						}
+					}
+				}
+	}
+
+
+}
 }
 	
+@media #{$social_fix} {
+	.header {
+		.social_media {
+			padding-top: 5px;
+		}
 
+	}
+}
 
 
 /* ==========================================
@@ -100,15 +183,18 @@
 	@media #{$tablet_shop} {
 		.open1, .open2 {
 			margin-top: 40px; 
+
+			
 		}
 
 		.open1 {
-	.button2 {
-		margin-top: -10px;
+			input {
+				margin-top: -10px;
+			}
 	}
 
 	}
-}
+
 
 	/* ==========================================
 	SHOP1

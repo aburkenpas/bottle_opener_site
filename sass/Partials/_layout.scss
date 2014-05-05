@@ -29,10 +29,10 @@ img {
 
 	
 	
-	img {
+	h1 {
 		float: left;
-		margin-left: 10%;
-		padding-top: 30px;
+		margin-left: 6%;
+		
 		
 			
 	}
@@ -222,13 +222,16 @@ section {
 }
 
 .open1 {
-.button2 {
-
-	@include button(white);
+	width: 100%;
+	
+	input {
+		font-family: $font1;
+		background-color: white;
 		max-width: 600px;
 		width: 100%;
+		margin-top: 10px;
+	}
 
-}
 }
 
 /* ==========================================

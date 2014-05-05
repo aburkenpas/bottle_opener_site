@@ -37,7 +37,7 @@
 	<header>
 		<div class="header">
 			<a href="index.php">
-				<a href="<?php echo BASE_URL; ?>"><img id ="logo_img" src="<?php echo BASE_URL; ?>img/Bottlelogo.png">
+				<a href="<?php echo BASE_URL; ?>"><h1>Top Pop Card</h1>
 			</a>
 			<div class="social_media">
 				<a href="http://twitter.com/toppopcard"  target="_blank" ><img src="<?php echo BASE_URL; ?>img/twitter.png" class="social-img"alt="Twitter icon"></a>
