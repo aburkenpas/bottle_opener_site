@@ -1,6 +1,7 @@
 <?php
 require_once("../inc/config.php");
-include(ROOT_PATH . "inc/header.php"); 
+include(ROOT_PATH . "inc/header.php");
+$pageTitle = "Top Pop Card | Shop"
 ?>
 
 <!-- Shop Page-->

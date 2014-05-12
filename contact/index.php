@@ -1,9 +1,7 @@
 <?php
- require_once("../inc/config.php");
- include(ROOT_PATH . "inc/header.php"); 
- 
+require_once("../inc/config.php");
 
-
+$pageTitle = "Contact Top Pop Card";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim($_POST["name"]);
     $email = trim($_POST["email"]);
@@ -38,16 +36,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_body = $email_body . "Email: " . $email . "<br>";
         $email_body = $email_body . "Message: " . $message;
 
-	//TO DO rename when final name is decieded
-	
         $mail->SetFrom($email, $name);
-        $address = "volt9design@gmail.com";
-        $mail->AddAddress($address, "Volt 9 Design");
-        $mail->Subject    = "Volt 9 Contact Form Submission | " . $name;
+        $address = "toppopcard@gmail.com";
+        $mail->AddAddress($address, "Top Pop Card");
+        $mail->Subject    = "Top Pop Contact Form Submission | " . $name;
         $mail->MsgHTML($email_body); 
 
         if($mail->Send()) {
-            header("Location: " . BASE_URL . "?status=thanks");
+            header("Location: " . BASE_URL . "contact/?status=thanks");
             exit;
         } else {
           $error_message = "There was a problem sending the email: " . $mail->ErrorInfo;
@@ -56,15 +52,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-
-
- ?>
+?><?php
+ include(ROOT_PATH . "inc/header.php"); ?>
 
 
 
 <!-- Conatct Page -->
 
-<body>
+
 
 		<div class="blue_bg">
 			<section>
@@ -77,8 +72,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					<!-- PHP -->
 					
 					<?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
-						<p class="contact_info">Thanks for the email! We'll get back to you in less than 48 hours!</p>
-					<?php } else { ?>
+						<p class="thankYouMessage">Thanks for the email! We'll get back to you in less than 48 hours!</p>
+				        <?php } else { ?>
 				
 					<?php
 					    if (!isset($error_message)) {
@@ -94,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 			
 					<div class="contact_form">
-						<form method="post" action="#section3">
+						<form method="post" action="<?php echo BASE_URL; ?>contact/">
 							<table>
 								<tr>
 									<td>
