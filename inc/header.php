@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	
 	<title><?php echo $pageTitle; ?></title>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="<?php echo $descCont; ?>">
 	
 	<!-- Main Style -->
 

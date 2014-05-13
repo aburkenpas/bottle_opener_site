@@ -1,5 +1,7 @@
 <?php
 $pageTitle = "Top Pop Card | Mancard Bottle Opener";
+$descCont = "The Mancard bottle opener is a 36 gauge stainless steel bottle opener that fits in your wallet.  Complete with manly mustache. ";
+
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php"); 
 ?>

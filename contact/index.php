@@ -2,6 +2,7 @@
 require_once("../inc/config.php");
 
 $pageTitle = "Contact Top Pop Card";
+$descCont = "Leave us a quick message and we'll contact you shortly.";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim($_POST["name"]);

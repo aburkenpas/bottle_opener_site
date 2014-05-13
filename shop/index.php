@@ -1,5 +1,7 @@
 <?php
 $pageTitle = "Top Pop Card | Shop";
+$descCont = "A complete gallery of all our bottle openers";
+
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php");
 ?>
