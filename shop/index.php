@@ -1,7 +1,7 @@
 <?php
+$pageTitle = "Top Pop Card | Shop";
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php");
-$pageTitle = "Top Pop Card | Shop";
 ?>
 
 <!-- Shop Page-->
@@ -18,12 +18,12 @@ $pageTitle = "Top Pop Card | Shop";
 					<div class="open1">
 						<p>Bottle Open 1</p>
 						<img src="<?php echo BASE_URL; ?>img/cat1.jpeg" alt="">
-						<a href="<?php echo BASE_URL; ?>shop1/"><p class="button">Buy Me</p></a>
+						<a href="<?php echo BASE_URL; ?>mancard-bottle-opener/"><p class="button">Buy Me</p></a>
 					</div>
 				<div class="open2">
 					<p>Bottle Open 2</p>
 					<img src="<?php echo BASE_URL; ?>img/cat2.jpeg" alt="">
-					<a href="<?php echo BASE_URL; ?>shop2/"><p class="button">Buy Me</p></a>	
+					<a href="<?php echo BASE_URL; ?>ace-of-diamonds-bottle-opener/"><p class="button">Buy Me</p></a>	
 				</div>
 				</div>
 				<div class="info">

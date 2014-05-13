@@ -1,9 +1,10 @@
 <!-- PHP -->
 
 <?php
+$pageTitle = "Top Pop Card | Home of the Mancard Bottle Opener and Ace of Diamonds Bottle Opener";
 require_once("inc/config.php");
 include(ROOT_PATH . "inc/header.php"); 
-$pageTitle = "Top Pop Card";
+
 ?>
 
 

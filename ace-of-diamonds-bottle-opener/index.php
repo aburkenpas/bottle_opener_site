@@ -1,4 +1,6 @@
 <?php
+
+$pageTitle = "Top Pop Card | Ace of Diamonds Bottle Opener";
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php"); 
 ?>

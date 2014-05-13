@@ -2,6 +2,7 @@
 require_once("../inc/config.php");
 
 $pageTitle = "Contact Top Pop Card";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim($_POST["name"]);
     $email = trim($_POST["email"]);
@@ -93,7 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							<table>
 								<tr>
 									<td>
-										<input type="text" name="name" placeholder="Name " id="name">
+										<input type="text" name="name" placeholder="Name" value="Trent" id="name">
 									<td>
 								</tr>
 								<tr>
@@ -121,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					</div>
 				</div>
 			</section>
-		</body>
+		
 
 
 

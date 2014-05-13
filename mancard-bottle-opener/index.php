@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Top Pop Card | Mancard Bottle Opener";
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php"); 
 ?>
