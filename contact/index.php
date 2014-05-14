@@ -2,6 +2,8 @@
 require_once("../inc/config.php");
 
 $pageTitle = "Contact Top Pop Card";
+$descCont = "Leave us a quick message and we'll contact you shortly.";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim($_POST["name"]);
     $email = trim($_POST["email"]);
@@ -93,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							<table>
 								<tr>
 									<td>
-										<input type="text" name="name" placeholder="Name " id="name">
+										<input type="text" name="name" placeholder="Name" value="Trent" id="name">
 									<td>
 								</tr>
 								<tr>
@@ -121,6 +123,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					</div>
 			
 			</section>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> error_message
 
 
 
