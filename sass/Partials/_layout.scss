@@ -143,8 +143,8 @@ section {
 
 	section {
 		.contact_title {
-			padding-top: 200px;
-			margin-bottom: 7%;
+			padding-top: 175px;
+			margin-bottom: 1%;
 			text-align: center;
 		}
 
@@ -162,7 +162,7 @@ section {
 			margin-bottom: 5%;
 		}
 		.contact_form {
-			margin-top: 10%;
+			margin-top: 3%;
 			text-align: center;
 		}
 
@@ -294,4 +294,25 @@ section {
   border: solid 5px white;
 
   }
+
+/* ==========================================
+	Error message - Layout
+====================================== */
+
+.message {
+
+	text-align: center;
+	font-family: $font2;
+	font-size: 2em;
+	border: solid red 7px;
+}
+
+.thankYouMessage {
+
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 190px;
+	font-family: $font2;
+	font-size: 2em;
+}
 

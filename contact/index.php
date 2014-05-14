@@ -119,9 +119,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 						</form>
 					<?php } ?>
 					</div>
-				</div>
+			
 			</section>
-		</body>
 
 
 
