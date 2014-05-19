@@ -18,25 +18,24 @@ include(ROOT_PATH . "inc/header.php");
 				</div>
 				<div class="container_shop1">
 					<div class="open1">
-						<p>Bottle Open 1</p>
-						<img src="<?php echo BASE_URL; ?>img/cat1.jpeg" alt="">
+						<p>Man Card - $10</p>
+						<img src="<?php echo BASE_URL; ?>img/man-card.JPG" alt="">
 
 
 						<a href="<?php echo BASE_URL; ?>mancard-bottle-opener/"><p class="button">Buy Me</p></a>
 
 					</div>
 				<div class="open2">
-					<p>Bottle Open 2</p>
-					<img src="<?php echo BASE_URL; ?>img/cat2.jpeg" alt="">	
+					<p>Ace - $10</p>
+					<img src="<?php echo BASE_URL; ?>img/Ace.JPG" alt="">	
 
 					<a href="<?php echo BASE_URL; ?>ace-of-diamonds-bottle-opener/"><p class="button">Buy Me</p></a>	
 
 				</div>
 				</div>
 				<div class="info">
-						<p>This text will be about the product.  
-							It will say stuff like hey whats up this bottle opener 
-							is made of of stainless steel.</p>
+						<p>Stainless Steel Bottle openers, that fit perfectly in your wallet.  We currently have two 
+							designs, and more to come. </p>
 				</div>
 		                </div>
 		</section>	

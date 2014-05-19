@@ -16,13 +16,14 @@ include(ROOT_PATH . "inc/header.php");
 			<div class="wrapper">
 
 				<div class="shop_title">
-					<h3>Bottle Open 2</h3>
+					<h3>Ace of Diamonds</h3>
 				</div>
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/cat2.jpeg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/cat1.jpeg" alt=""></li>
+      						<li><img src="<?php echo BASE_URL; ?>img/Ace.JPG" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/Ace-of-Dimaond-Wallet.jpg" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/aceopen.JPG" alt=""></li>
         					
    						 </ul>
    						</div>
@@ -38,9 +39,7 @@ include(ROOT_PATH . "inc/header.php");
 
    					<div class="info">
 
-						<p>This text will be about the product.  
-						It will say stuff like hey whats up this bottle opener 
-						is made of of stainless steel.</p>
+						<p>Always have an ace up your sleve with this 36 gauge stainless steel Ace of Diamonds Bottle Opener that fits in your wallet. - $10</p>
 						
 					</div>
 

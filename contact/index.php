@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							<table>
 								<tr>
 									<td>
-										<input type="text" name="name" placeholder="Name" value="Trent" id="name">
+										<input type="text" name="name" placeholder="Name" id="name">
 									<td>
 								</tr>
 								<tr>
@@ -123,12 +123,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					</div>
 			
 			</section>
-<<<<<<< HEAD
-=======
-		
->>>>>>> error_message
-
-
 
 
 			<?php include(ROOT_PATH . "inc/footer.php"); ?>

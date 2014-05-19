@@ -15,14 +15,14 @@ include(ROOT_PATH . "inc/header.php");
 			<div class="wrapper">
 
 				<div class="shop_title">
-					<h3>Bottle Open 1</h3>
+					<h3>Man Card</h3>
 				</div>
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/cat2.jpeg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/cat1.jpeg" alt=""></li>
-        					
+      						<li><img src="<?php echo BASE_URL; ?>img/man-card.JPG" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/man-card-wallet.jpg" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/Man-Card-Open.JPG" alt=""></li>
    						 </ul>
    						</div>
 					
@@ -37,9 +37,7 @@ include(ROOT_PATH . "inc/header.php");
 
    					<div class="info">
 
-						<p>This text will be about the product.  
-						It will say stuff like hey whats up this bottle opener 
-						is made of of stainless steel.</p>
+						<p>The Mancard bottle opener is a 36 gauge stainless steel bottle opener that fits in your wallet.  Complete with manly mustache.  Never leave home without it! - $10</p>
 						
 					</div>
 

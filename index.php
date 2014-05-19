@@ -19,7 +19,6 @@ include(ROOT_PATH . "inc/header.php");
 	<div class="wrapper">
 		<section>
 			<div class="title" id="section1">
-				<h1>Top Pop Card</h1>
 				<h2>Stainless Steel Bottle Openers</h2>
 			</div>
 	</div>
