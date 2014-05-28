@@ -20,9 +20,9 @@ include(ROOT_PATH . "inc/header.php");
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/man-card.JPG" alt=""></li>
+      						<li><img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt=""></li>
         					<li><img src="<?php echo BASE_URL; ?>img/man-card-wallet.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/Man-Card-Open.JPG" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/Man-Card-Open.jpg" alt=""></li>
    						 </ul>
    						</div>
 					

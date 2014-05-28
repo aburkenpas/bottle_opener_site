@@ -19,7 +19,7 @@ include(ROOT_PATH . "inc/header.php");
 				<div class="container_shop1">
 					<div class="open1">
 						<p>Man Card - $10</p>
-						<img src="<?php echo BASE_URL; ?>img/man-card.JPG" alt="">
+						<img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt="">
 
 
 						<a href="<?php echo BASE_URL; ?>mancard-bottle-opener/"><p class="button">Buy Me</p></a>
@@ -27,7 +27,7 @@ include(ROOT_PATH . "inc/header.php");
 					</div>
 				<div class="open2">
 					<p>Ace - $10</p>
-					<img src="<?php echo BASE_URL; ?>img/Ace.JPG" alt="">	
+					<img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt="">	
 
 					<a href="<?php echo BASE_URL; ?>ace-of-diamonds-bottle-opener/"><p class="button">Buy Me</p></a>	
 

@@ -21,9 +21,9 @@ include(ROOT_PATH . "inc/header.php");
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/Ace.JPG" alt=""></li>
+      						<li><img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt=""></li>
         					<li><img src="<?php echo BASE_URL; ?>img/Ace-of-Dimaond-Wallet.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/aceopen.JPG" alt=""></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/aceopen.jpg" alt=""></li>
         					
    						 </ul>
    						</div>
