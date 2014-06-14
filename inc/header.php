@@ -49,6 +49,7 @@
 			<nav>
 				<ul>	
 					<li class="shop_nav"><a href="<?php echo BASE_URL; ?>shop/">Shop</a></li>
+					<li class="how_it_works_nav"><a href="<?php echo BASE_URL; ?>how-it-works/">How It Works</a></li>
 					<li class="contact_nav"><a href="<?php echo BASE_URL; ?>contact/" >Contact</a></li>
 				</ul>
 			
