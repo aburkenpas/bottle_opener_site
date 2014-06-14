@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->SetFrom($email, $name);
         $address = "toppopcard@gmail.com";
         $mail->AddAddress($address, "Top Pop Card");
-        $mail->Subject    = "Top Pop Contact Form Submission | " . $name;
+        $mail->Subject    = "Top Pop Contact Form Submission | " . $email;
         $mail->MsgHTML($email_body); 
 
         if($mail->Send()) {
