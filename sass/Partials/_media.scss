@@ -134,6 +134,52 @@
 
 }
 
+@media #{$mobile_header2} {
+
+	.header {
+		h1 {
+			text-align: center;
+			margin: 28px;
+			
+		}
+
+		.social_media {
+			text-align: center;
+			margin: 0;
+			margin-top: 0px;
+		}
+	}
+
+
+	}
+
+
+	@media #{$mobile_header3} {
+
+		.header {
+			h1 {
+				margin-top: -13px;
+				margin-left: 95px;
+			}
+		.social_media {
+			text-align: center;
+			margin: 0;
+			margin-right: 145px;
+			
+		}
+			nav{
+
+				ul {
+
+					li {
+						padding-right: 6px;
+						font-size: 1.6em;
+					}
+				}
+			}
+		}
+	}
+
 @media #{$nav_fix} {
 	.header{
 
@@ -172,6 +218,169 @@
 
 }
 }
+
+@media #{$nav_fix2} {
+	.header{
+
+		.social_media {
+		padding-top: 60px;
+	}
+		nav{
+			float: none;
+			text-align: center;
+			margin:0;
+			margin-right: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #272727;
+			font-size: 1.7em;
+			margin-top: 100px;
+
+		
+
+		ul {
+						
+
+					li {
+						
+						padding-right: 140px;
+						display: inline-block;
+
+
+						a {
+							color: white;
+						}
+					}
+				}
+	}
+
+
+}
+}
+
+@media #{$nav_fix3} {
+	.header{
+
+		.social_media {
+		padding-top: 60px;
+	}
+		nav{
+			float: none;
+			text-align: center;
+			margin:0;
+			margin-right: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #272727;
+			font-size: 1.7em;
+			margin-top: 100px;
+
+		
+
+		ul {
+						
+
+					li {
+						
+						padding-right: 75px;
+						display: inline-block;
+
+
+						a {
+							color: white;
+						}
+					}
+				}
+	}
+
+
+}
+	
+	}
+
+@media #{$nav_fix4} {
+	.header{
+
+		.social_media {
+		padding-top: 60px;
+	}
+		nav{
+			float: none;
+			text-align: center;
+			margin:0;
+			margin-right: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #272727;
+			font-size: 1.3em;
+			margin-top: 100px;
+
+		
+
+		ul {
+						
+
+					li {
+						
+						padding-right: 80px;
+						display: inline-block;
+
+
+						a {
+							color: white;
+						}
+					}
+				}
+	}
+
+
+}
+	
+	}
+
+@media #{$nav_fix5} {
+	.header{
+
+		.social_media {
+		padding-top: 60px;
+	}
+		nav{
+			float: none;
+			text-align: center;
+			margin:0;
+			margin-right: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #272727;
+			font-size: 0.9em;
+			margin-top: 100px;
+
+		
+
+		ul {
+						
+
+					li {
+						
+						padding-right: 50px;
+						display: inline-block;
+
+
+						a {
+							color: white;
+						}
+					}
+				}
+	}
+
+
+}
+	
+	}
+
+
+
+
 	
 @media #{$social_fix} {
 	.header {
@@ -195,6 +404,19 @@
 		}
 
 	}
+
+	@media #{$tablet_shop12} {
+		.open1, .open2 {
+			p {
+				font-size: 0.9em;
+			}
+
+			
+		}
+
+	}
+
+
 
 
 
