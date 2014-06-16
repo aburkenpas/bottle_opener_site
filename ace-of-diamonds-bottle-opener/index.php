@@ -4,7 +4,8 @@ $pageTitle = "Top Pop Card | Ace of Diamonds Bottle Opener";
 $descCont = "Always have an ace up your sleve with the 36 gauge stainless steel Ace of Diamonds Bottle Opener that fits in your wallet ";
 
 require_once("../inc/config.php");
-include(ROOT_PATH . "inc/header.php"); 
+include(ROOT_PATH . "inc/header.php");
+include("analyticstracking.php");
 ?>
 
 <!-- Shop Page-->
