@@ -44,7 +44,7 @@ section {
 		}
 	}
 
-	.open1, .open2 {
+	.open1, .open2, .buy_button {
 		font-size: 2.5em;
 		font-family: $font2;
 
@@ -59,6 +59,13 @@ section {
 		font-family: $font2;
 		font-size: 1.7em;
 	}
+
+	.man_info, .man_info2 {
+		
+		font-family: $font2;
+		font-size: 1.7em;
+	}
+
 }
 
 /* ==========================================
@@ -111,6 +118,7 @@ footer {
 
 	p{
 		font-family: $font2;
+		font-size: 1.5em;
 	}
 }
 

@@ -28,9 +28,14 @@ include("analyticstracking.php");
         					
    						 </ul>
    						</div>
-					
 
-   						<div class="open1">
+					<div class="man_info">
+
+						<p>Always have an ace up your sleve with this 36 gauge stainless steel Ace of Diamonds Bottle Opener that fits in your wallet. - $10</p>
+						
+					</div>
+
+   						<div class="buy_button">
 							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 							<input type="hidden" name="cmd" value="_s-xclick">
 							<input type="hidden" name="hosted_button_id" value="YQUC8YY7A8QHU">
@@ -38,18 +43,14 @@ include("analyticstracking.php");
 							</form>		
 						</div>
 
-   					<div class="info">
+   					<div class="man_info2">
 
 						<p>Always have an ace up your sleve with this 36 gauge stainless steel Ace of Diamonds Bottle Opener that fits in your wallet. - $10</p>
 						
 					</div>
-
-					<div>
-   			</div>
-   					
+				</div>
 						
-				
-		                </div>
+					
 		</section>
 
 	<script>

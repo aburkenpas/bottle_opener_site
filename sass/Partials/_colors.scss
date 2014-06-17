@@ -41,7 +41,7 @@
 
 }
 
-.open1, .open2 {
+.open1, .open2,{
 	img {
 		border: solid 5px white;
 	}
@@ -68,4 +68,9 @@
 
 .button2 {
 	color: $color2;
+}
+.buy_button {
+	.buy{
+		color: $color2;
+	}
 }

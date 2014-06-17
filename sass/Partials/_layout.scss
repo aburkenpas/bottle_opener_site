@@ -123,9 +123,31 @@ section {
 	}
 	}
 
-	.info{
+	.man_info{
 		margin-top: 5%;
 		text-align: center;
+		padding-top: 30px;
+		float: left;
+		width: 50%;
+		padding-top: 100px;
+
+
+	}
+
+	.man_info2, .info {
+		
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		
+
+	}
+
+	.buy_button {
+	
+		width: 100%;
+		text-align: center;
+
 	}
 
 }
@@ -200,7 +222,7 @@ section {
 	text-align: center;
 	.photo1, .photo2, .photo3, .photo4{
 		img {
-			max-width: 600px;
+			max-width: 500px;
 			width:100%;
 			border: solid 5px white;
 		}
@@ -228,6 +250,18 @@ section {
 
 }
 
+.buy_button {
+		input {
+		font-family: $font1;
+		background-color: white;
+		max-width: 600px;
+		width: 100%;
+		font-size: 0.5em;
+		
+	
+	}
+}
+
 /* ==========================================
 	Footer - Layout
 ====================================== */
@@ -235,16 +269,10 @@ section {
 	footer {
 		text-align: center;
 
-		img {
-			padding-top: 5%;
-			margin-bottom: 50px;
-			
-		}
-
-
 		
 		p {
 			padding-bottom: 15px;
+			margin-top: 130px;
 		}
 	}
 
@@ -260,6 +288,7 @@ section {
   max-width: 600px;
   padding: 0;
   margin: 0 auto;
+
 
   }
 
