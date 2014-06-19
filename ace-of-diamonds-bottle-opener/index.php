@@ -22,9 +22,9 @@ include("analyticstracking.php");
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/Ace-of-Dimaond-Wallet.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/aceopen.jpg" alt=""></li>
+      						<li><img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt="The Ace of Diamonds bottle opener"></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/Ace-of-Dimaond-Wallet.jpg" alt="The Ace of Diamonds bottle opener insde a wallet"></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/aceopen.jpg" alt="The Ace of Diamonds bottle opener opening a Bottle"></li>
         					
    						 </ul>
    						</div>

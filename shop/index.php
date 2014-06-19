@@ -23,15 +23,15 @@ include("analyticstracking.php");
 
 					<div class="open1">
 						<p>Man Card - $10</p>
-						<img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt="">
+						<img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt="The Man Card bottle opener">
 
 						<a href="<?php echo BASE_URL; ?>mancard-bottle-opener/"><p class="button">More Info</p></a>
 					</div>
 
 				<div class="open2">
-					
+
 					<p>Ace - $10</p>
-					<img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt="">	
+					<img src="<?php echo BASE_URL; ?>img/Ace.jpg" alt="The Ace of Diamonds bottle opener">	
 
 					<a href="<?php echo BASE_URL; ?>ace-of-diamonds-bottle-opener/"><p class="button">More Info</p></a>	
 

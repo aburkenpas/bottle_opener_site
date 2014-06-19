@@ -21,9 +21,9 @@ include("analyticstracking.php");
 
 					<div class="slider_container">
     					<ul class="rslides" >
-      						<li><img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/man-card-wallet.jpg" alt=""></li>
-        					<li><img src="<?php echo BASE_URL; ?>img/Man-Card-Open.jpg" alt=""></li>
+      						<li><img src="<?php echo BASE_URL; ?>img/man-card.jpg" alt="The Man Card bottle opener"></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/man-card-wallet.jpg" alt="The Man Card bottle opener in a wallet"></li>
+        					<li><img src="<?php echo BASE_URL; ?>img/Man-Card-Open.jpg" alt="The Man Card bottle opener opening a Bottle"></li>
    						 </ul>
    						
    						<div class="man_info">

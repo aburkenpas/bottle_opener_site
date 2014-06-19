@@ -25,6 +25,15 @@
 
 	<!-- End Google Fonts-->
 
+	<!-- Favicon -->
+
+	<link href="<?php echo BASE_URL; ?>img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Meta Tags -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- End Meta -->
 	
 	
 				
