@@ -6,7 +6,7 @@ $descCont = "Top Pop Cards are 36 gauge stainless steel bottle openers that will
 
 require_once("inc/config.php");
 include(ROOT_PATH . "inc/header.php");
-include("analyticstracking.php");
+include(ROOT_PATH . "inc/analyticstracking.php");
 
 ?>
 
@@ -20,6 +20,9 @@ include("analyticstracking.php");
 	<div class="wrapper">
 		<section>
 			<div class="title" id="section1">
+				<video width="100%"  height="auto" autoplay controls>
+					<source src="video/ManCardVideo.mp4" type="video/mp4"></source>
+				</video>
 				<h2>Stainless Steel Bottle Openers</h2>
 			</div>
 	</div>

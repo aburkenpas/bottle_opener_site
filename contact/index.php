@@ -1,6 +1,6 @@
 <?php
 require_once("../inc/config.php");
-include("analyticstracking.php");
+include(ROOT_PATH . "inc/analyticstracking.php");
 
 $pageTitle = "Contact Top Pop Card";
 $descCont = "Leave us a quick message and we'll contact you shortly.";

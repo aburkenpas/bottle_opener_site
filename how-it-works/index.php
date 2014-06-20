@@ -4,7 +4,7 @@ $descCont = "How your pop top card works";
 
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php");
-include("analyticstracking.php");
+include(ROOT_PATH . "inc/analyticstracking.php");
 ?>
 
 <div class="red_bg">

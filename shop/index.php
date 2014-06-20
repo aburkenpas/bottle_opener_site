@@ -4,7 +4,7 @@ $descCont = "A complete gallery of all our bottle openers";
 
 require_once("../inc/config.php");
 include(ROOT_PATH . "inc/header.php");
-include("analyticstracking.php");
+include(ROOT_PATH . "inc/analyticstracking.php");
 ?>
 
 <!-- Shop Page-->
