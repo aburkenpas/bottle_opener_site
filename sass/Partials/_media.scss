@@ -463,6 +463,17 @@
 
 	}
 
+	.header {
+
+		height: 130px;
+	}
+
+	.wrapper {
+		.title {
+			padding-top: 175px;
+		}
+	}
+
 }
 
 @media #{$shop_fix2} {
@@ -494,6 +505,10 @@
 	}
 
 	
+	}
+
+	.contact_title {
+		margin-top: 40px;
 	}
 
 }

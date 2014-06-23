@@ -14,7 +14,7 @@ include(ROOT_PATH . "inc/analyticstracking.php");
 
 <!-- Title Page -->
 
-<body>
+<body class="black_bg">
 
 <div class="photo_container">
 	<div class="wrapper">
