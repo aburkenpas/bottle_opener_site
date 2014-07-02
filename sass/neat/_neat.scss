@@ -4,6 +4,7 @@
 
 // Helpers
 @import "neat-helpers";
+@import "Partials/variables";
 
 
 // Grid
@@ -62,7 +63,63 @@ section {
 
 
 }
-//Media SHOPP
+
+//How it works
+
+.video_container {
+	@include outer-container;
+	@include span-columns(12);
+
+	.mancard_video, .ace_video {
+		@include span-columns(5 0f 10);
+
+
+	}
+
+	.ace_video {
+		padding-left: 2.5%;
+	}
+	.mancard_video {
+		padding-right: 2.5%;
+	}
+
+	
+}
+
+@media #{$video_fix} {
+
+	.video_container{
+		@include outer-container;
+	@include span-columns(12);
+		.mancard_video, .ace_video {
+		@include span-columns(12);
+
+	}
+
+	.ace_video {
+		text-align: center;
+		margin: 0;
+		margin-top: 7%;
+		padding: 0;
+		
+	}
+	.mancard_video {
+		margin: 0;
+		padding: 0;
+	}
+	}
+
+}
+
+@media #{$video_fix2} {
+	.video_container{
+		iframe {
+			width: 400px;
+		}
+	}
+}
+
+
 
 
 

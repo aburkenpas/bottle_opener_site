@@ -538,3 +538,17 @@
 	}
 
 }
+
+
+//How it works
+
+@media #{$video_fix} {
+
+	.video_container{
+		.mancard_video {
+			text-align: center;
+		}
+	}
+
+}
+

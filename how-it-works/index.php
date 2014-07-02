@@ -7,14 +7,23 @@ include(ROOT_PATH . "inc/header.php");
 include(ROOT_PATH . "inc/analyticstracking.php");
 ?>
 
-<div class="red_bg">
+<div class="green_bg">
 		<section>
 			<div class="wrapper">
 
 				<div class="shop_title">
 					<h3>How it Works</h3>
 				</div>
-				
+				<div class="video_container">
+					<div class="mancard_video">
+						<h1>Man Card</h1>
+						<iframe class"video" width="500" height="350" src="//www.youtube.com/embed/jYNHDMXuuAQ" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="ace_video">
+						<h1>Ace of Diamonds</h1>
+						<iframe class"video" width="500" height="350" src="//www.youtube.com/embed/NKIjZDBDu-g" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
 		</section>	
 	
 		

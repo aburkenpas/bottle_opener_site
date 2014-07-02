@@ -5,6 +5,8 @@
 $color1: #Bc2f36; //red color
 $color2: lighten( $color1, 13%); //light red
 $color3: #04819e; // blue color
+$purple: #9e3f89;
+$purple2: lighten($purple, 13%);
 $black: #272727;
 $black2: #202020;
 $blue: #015c65;
@@ -45,5 +47,8 @@ $shop_fix2: "screen and (max-width : 1052px)";
 $shop_fix3: "screen and (max-width : 918px)";
 $shop_fix4: "screen and (min-width : 1101px)";
 $shop_fix5: "screen and (max-width : 939px)";
+
+$video_fix: "screen and (max-width : 1144px)";
+$video_fix2: "screen and (max-width : 564px)";
 
 

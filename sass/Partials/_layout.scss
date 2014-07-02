@@ -340,3 +340,23 @@ section {
 	font-size: 2em;
 }
 
+/* ==========================================
+	How it works
+====================================== */
+
+.video_container{
+	h1 {
+		text-align: center;
+		font-family: $font2;
+	}
+}
+.green_bg {
+	background-color: $purple;
+	@include background(radial-gradient($purple2, $purple) left repeat);
+}
+
+
+
+
+
+
